@@ -11,5 +11,5 @@ tags = {
   Team    = "DevOps"
   Billing = "CFO"
   Quarter = "3"
-  AppName = "Workpress"
+  AppName = "Wordpress"
 }
