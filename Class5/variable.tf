@@ -1,0 +1,9 @@
+variable "region" {}
+variable "cluster_name" {}
+variable "cluster_version" {}
+variable "subnets" {}
+variable "vpc_id" {}
+variable "tags" {}
+variable "instance_type" {}
+variable "asg_max_size" {}
+variable "asg_min_size" {}
