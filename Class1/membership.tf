@@ -2,10 +2,10 @@ resource "aws_iam_group_membership" "team" {
   name = "tf-testing-group-membership"
 
   users = [
-    aws_iam_user.testuser.name,
+    aws_iam_user.group.name,
   ]
 
-  group = aws_iam_group.testgroup.name
+  group = aws_iam_group.user_one.name
 }
 
 resource "aws_iam_group" "group" {
